@@ -1,0 +1,223 @@
+.navbar {
+  overflow: hidden;
+  font-family: inherit;
+}
+
+.navbar a {
+  float: left;
+  margin: 0px;
+  left: 0;
+  top: 0;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
+  font-size: 25px;
+  min-width: 12%;
+  background-color: #311432;
+}
+
+.navbar a:hover,
+.active .dropdown:hover .dropbtn .dropdown-content a:hover {
+  background-color: whitesmoke;
+  color:black; 
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 20px;
+  background-color: #311432;
+  font-family: inherit;
+  margin: 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  background-color: #311432;
+  padding: 20px 18px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  min-width: 180px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.links {
+  padding: 18px 80px !important;
+  min-width: 200px !important;
+  outline: none;
+  border: none;
+  background-color: #311432;
+  color: whitesmoke;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+/*.links:hover{ this will turn the background of the label "Links" to white when it is hovered over
+  background-color: whitesmoke; because "Links" is a label of a dropdown menu and not a link itself, this is not necessary
+  color:black;}*/
+
+.fix{
+  color: whitesmoke !important;
+}
+
+.calendar{
+  padding:20px;
+  width: 50%;
+  margin: auto;
+}
+
+body {
+  height: 100%; 
+  width: 100%; 
+  background-color: #8c7d70; 
+  color: whitesmoke;
+  font-family: Verdana;
+  scroll-behavior: smooth;
+  margin-left:0;
+  padding-bottom: 10%;
+  min-height: 110%;
+  margin-bottom: -10%;}
+body:after {content: "";display: block;height: 10%;}
+
+
+/*styling for dark mode & the THEME button (only necessary if implementing a theme button/dark mode)
+/*body.dark-mode {background-color: #003b6d; color: #8c7d70
+            ;}
+#darkmode {
+  z-index:99; so the button with be on the farthest top layer
+  border:none;
+  outline:none;
+  position: fixed;
+  background-color: #311432;
+  color:#8c7d70;
+  border-radius:12px;
+  padding: 10px 20px;
+  font-size:16px;
+  right: 10px;
+  cursor: pointer;
+  bottom: 70px;
+  font-family: inherit;}
+#darkmode:hover {background-color: #8c7d70; color:whitesmoke;} */
+
+
+/*styling for the footer and its elements as well as the GO TO TOP button*/
+footer {
+  padding: .25%;
+  background-color: #311432;
+  color: whitesmoke;
+  display: inline-block;
+  font-family: Verdana;
+  position: sticky;
+  align-items: center;
+  width: 100%;
+  margin-top: 110%;
+  left:0%;
+  right:0%;
+  top: 100%;}
+.footer {
+  align-self: center;
+  text-align: center;
+  background-color: #311432
+!important;
+  color: whitesmoke !important;
+  padding: 5px;
+  display: block;
+  height: 10%;
+  width: 100%;}
+#topbutton{
+  font-family:Inherit;
+  background-color:#311432;;
+  color:whitesmoke;
+  display:none;
+  position:fixed;
+  bottom:20px;
+  right:10px;
+  z-index:99;
+  border:none;
+  outline:none;
+  cursor: pointer;
+  padding:10px 20px;
+  border-radius:12px;
+  font-size:16px;}
+#topbutton:hover {background-color:#311432;color:whitesmoke;}
+
+/*headings and the styling of the most used text class*/
+h1 {
+  color: inherit !important;
+  padding: none;
+  font-family: Verdana;
+  text-align: center;
+  font-size: 40px;
+  background-color: none;
+  width: 100%;}
+
+h2 {
+  color: inherit !important; 
+  text-align: center;
+  font-family: Verdana;
+  background-color: rgba(0,0,80,0.3);
+  border-style: hidden solid;
+  border-color: #311432;
+  border-width: thick;
+  margin-left: 100px;
+  margin-right: 100px;}
+
+h3, h4, h5, h6 {
+  color: whitesmoke;
+  text-align:center;
+  font-family: Vardana;
+  background-color: none;}
+
+p.reg {
+  padding-left: 10px;
+  size: 20px; 
+  font-size: 22px;
+  font-family: Verdana;
+  background-color: rgba(0,0,80,0.3);
+  color: inherit !important;
+  border-style: hidden solid;
+  border-color: #311432;
+  border-width: thick;
+  margin-left: 100px;
+  margin-right: 100px;}
+
+a.reg{
+  color:smokewhite;
+}
+/*horizontal ruler, links, other*/
+hr {margin-left: 80px; margin-right: 80px; border: 1px solid whitesmoke;}
+
+div.scroll-container{
+  overflow:auto;
+  background-color: rgba(0,0,80,0.3);
+  white-space: nowrap;
+  padding: 10px;
+}
+div.scroll-container img{
+  padding: 10px;
+}
+
